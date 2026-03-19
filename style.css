@@ -140,6 +140,78 @@ h2 {
     background: var(--primary-color);
     color: var(--white);
 }
+/* Article Reading Layout */
+.reading-container {
+    max-width: 700px; /* Narrower width for better readability */
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.article-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.article-header h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 15px 0;
+}
+
+.article-meta {
+    font-size: 0.9rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Typography for the Body */
+.article-body p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.lead {
+    font-size: 1.4rem !important;
+    font-weight: 500;
+    color: var(--primary-color) !important;
+}
+
+/* The Quote Style */
+blockquote {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-style: italic;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 30px;
+    margin: 40px 0;
+    color: var(--primary-color);
+    line-height: 1.4;
+}
+
+.conclusion-question {
+    font-weight: 600;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+}
+
+.article-footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
 
 /* Footer */
 footer {
